@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>WatsonWebserver</RootNamespace>
+    <AssemblyName>Watson</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <Reference Include="RegexMatcher, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>.\lib\RegexMatcher.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
